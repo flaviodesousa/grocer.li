@@ -9,6 +9,8 @@
 capybara-*.html
 .rspec
 .rvmrc
+.ruby-gemset
+.ruby-version
 
 # Ignore bundler config.
 /.bundle
