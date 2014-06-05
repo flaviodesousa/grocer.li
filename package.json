@@ -17,17 +17,22 @@
     "postinstall": "node node_modules/bower/bin/bower install"
   },
   "dependencies": {
-    "express": "latest",
-    "jade": "latest",
-    "passport": "latest",
-    "passport-local": "latest",
-    "lodash": "latest",
-    "bower": "latest",
-    "grunt": "latest",
-    "grunt-cli": "latest",
-    "grunt-env": "latest",
-    "forever": "latest"
+    "express": "*",
+    "express-load": "*",
+    "jade": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "lodash": "*",
+    "bower": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-env": "*",
+    "forever": "*",
+    "bookshelf": "*",
+    "pg": "*"
   },
   "devDependencies": {
+    "mocha": "*",
+    "debug": "*"
   }
 }
