@@ -9,7 +9,7 @@ Bookshelf.Conn.knex.schema.hasTable('users')
   .then(function(exists) {
     if(exists) return;
 
-    bspg.knex.schema.createTable('users', function(table) {
+    Bookshelf.Conn.knex.schema.createTable('users', function(table) {
       table.increments('id');
       table.string('email').notNullable().unique();
       table.string('secret').notNullable();

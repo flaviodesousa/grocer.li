@@ -1,4 +1,4 @@
-module.export = function(app) {
+module.exports = function(app) {
   var Bookshelf = require('bookshelf').Conn;
 
   var User = Bookshelf.Model.extend({

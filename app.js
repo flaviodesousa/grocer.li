@@ -1,7 +1,7 @@
 var express = require('express');
 var load = require('express-load');
 
-var app = express()
+var app = express();
 
 load('config')
   .then('models')
